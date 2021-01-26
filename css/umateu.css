@@ -11,13 +11,61 @@ body {
     margin: 0;
 }
 
+#libro {
+    background-image: url("../img/libro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
+
+/*.one-column*/
+
 .one-column {
     width: 100%;
     text-align: center;
+    align-content: center;
+}
+
+.one-column a {
+    color: white;
+}
+
+.one-column p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+    margin-left: 25%;
+    align-content: center;
+    margin-right: 25%;
+}
+
+
+/*button*/
+
+.button {
+    background-color: rgba(0, 0, 0, 0.616);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+}
+
+
+/*input*/
+
+.input a {
+    font-size: 20px;
 }
