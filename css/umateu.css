@@ -72,8 +72,18 @@ body {
 
 /*4*/
 
-#pg4 {
-    background-color: black;
+.one-column img {
+    padding-top: 25px;
+    width: 1%;
+}
+
+#portada {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
 }
 
 .pagina4 h1 {

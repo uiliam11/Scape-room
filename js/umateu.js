@@ -37,7 +37,7 @@ function val_4() {
     } else if (a == 'traicion') {
         return true
     } else {
-        alert('Los hombres cerdo se rien al verte fallar')
+        alert('Virgilio no se inmuta y el frío te consume poco a poco')
         return false
     }
 }
