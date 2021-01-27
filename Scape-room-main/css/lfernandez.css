@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+    background-color: #010101;
+}
+
+.index h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.index img {
+    width: 65%;
+    display: block;
+    margin: auto;
+    padding-right: 5%;
+}
+
+.index p {
+    color: white;
+    padding-left: 23%;
+    padding-right: 23%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.one-column-index {
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.one-column-index img {
+    padding-top: 25px;
+    width: 1%;
+}
+
+
+/* pagina 2 */
+
+#portada {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.pagina2 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pagina2 img {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+.pagina2 p {
+    color: white;
+    padding-left: 23%;
+    padding-right: 23%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+.one-column-pagina2 {
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.one-column-pagina2 img {
+    padding-top: 25px;
+    width: 1%;
+}
+
+
+/* pagina 3 */
+
+#portada {
+    height: 125%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.pagina3 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pagina3 p {
+    color: white;
+    padding-left: 23%;
+    padding-right: 23%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+.pagina3 img {
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.one-column-pagina3 {
+    width: 100%;
+    text-align: center;
+}
+
+.one-column-pagina3 img {
+    padding-top: 25px;
+    width: 1%;
+}
+
+.audio {
+    position: center;
+    display: block;
+    margin: auto;
+}
