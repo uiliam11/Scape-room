@@ -140,6 +140,20 @@ html {
     margin: auto;
 }
 
+
+/*end*/
+
+#tamanoend {
+    font-size: 3vw;
+}
+
+
+/*title*/
+
+#title {
+    font-size: 4vw;
+}
+
 @media only screen and (max-width:600px) {
     .index img {
         padding: 0px;
