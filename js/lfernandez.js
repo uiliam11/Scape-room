@@ -13,11 +13,18 @@ function val_2() {
     var a = document.getElementById('val-2').value
     if (a == 'Caronte') {
         return true
+    } else if (a == 'caronte') {
+        return true
+    } else if (a == 'Carón') {
+        return true
+    } else if (a == 'carón') {
+        return true
     } else {
         alert('El cráneo no parece inmutarse.')
         return false
     }
 }
+
 
 //pagina3
 

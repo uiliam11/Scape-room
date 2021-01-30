@@ -1,105 +1,112 @@
-    * {
-        box-sizing: border-box;
-        font-family: 'UnifrakturMaguntia', cursive;
-    }
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    body {
-        margin: 0;
-    }
-    
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    /*.one-column*/
-    
-    .one-column {
-        width: 100%;
-        text-align: center;
-        align-content: center;
-    }
-    
-    .one-column a {
-        color: white;
-    }
-    
-    .one-column p {
-        color: white;
-        margin-left: 25%;
-        align-content: center;
-        margin-right: 25%;
-    }
-    /*button*/
-    
-    .button {
-        background-color: rgba(0, 0, 0, 0.616);
-        border: none;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-    }
-    /*input*/
-    
-    .input a {
-        font-size: 20px;
-    }
-    /*4*/
-    
-    .one-column img {
-        padding-top: 25px;
-        width: 1%;
-    }
-    
-    #portada {
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -100;
-    }
-    
-    .pagina4 h1 {
-        text-align: center;
-        font-size: 50px;
-        color: white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    .pagina4 img {
-        width: 25%;
-        display: block;
-        margin: auto;
-    }
-    
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*.one-column*/
+
+.one-column {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.one-column a {
+    color: white;
+}
+
+.one-column p {
+    color: white;
+    margin-left: 25%;
+    align-content: center;
+    margin-right: 25%;
+}
+
+
+/*button*/
+
+.button {
+    background-color: rgba(0, 0, 0, 0.616);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/*4*/
+
+.one-column img {
+    padding-top: 25px;
+    width: 1%;
+}
+
+#portada {
+    height: 125%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.pagina4 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Tangerine', cursive;
+}
+
+.pagina4 img {
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.pagina4 p {
+    color: white;
+    padding-left: 23%;
+    padding-right: 23%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.one-column-pagina4 {
+    width: 100%;
+    text-align: center;
+}
+
+.one-column-pagina4 img {
+    padding-top: 25px;
+    width: 1%;
+}
+
+@media only screen and (max-width:600px) {
     .pagina4 p {
-        color: white;
-        padding-left: 23%;
-        padding-right: 23%;
-        text-align: justify;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding-bottom: 20px;
+        padding: 20px;
     }
-    
-    .one-column-pagina4 {
-        padding-top: 30px;
-        width: 100%;
-        text-align: center;
+    .pagina4 img {
+        width: 80%;
     }
-    
-    @media only screen and (min-width: 600px) {
-        .one-column img {
-            padding-top: 25px;
-            width: 3.8%;
-        }
-        #enviar img {
-            width: 3.8%;
-        }
+    .one-column-pagina4 img {
+        padding-top: 25px;
+        width: 3.8%;
     }
+}

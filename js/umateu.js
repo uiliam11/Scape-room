@@ -32,9 +32,17 @@ function val_3() {
 //pagina7
 function val_4() {
     var a = document.getElementById('val-4').value
-    if (a == 'noveno círculo') {
+    if (a == 'noveno circulo') {
+        return true
+    } else if (a == 'Noveno circulo') {
+        return true
+    } else if (a == 'noveno círculo') {
+        return true
+    } else if (a == 'Noveno Círculo') {
         return true
     } else if (a == 'traicion') {
+        return true
+    } else if (a == 'traición') {
         return true
     } else {
         alert('Virgilio no se inmuta y el frío te consume poco a poco')

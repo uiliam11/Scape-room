@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     /* font family */
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'UnifrakturMaguntia', cursive;
 }
 
 html {
@@ -112,8 +112,8 @@ html {
     padding-left: 23%;
     padding-right: 23%;
     text-align: center;
-    padding-bottom: 20px;
     font-family: 'UnifrakturMaguntia', cursive;
+    padding-bottom: 20px;
     font-size: 16px;
 }
 
