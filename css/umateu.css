@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-color: #010101;
+    background-color: black;
 }
 
 .row:after {
@@ -38,13 +38,15 @@ body {
 /*button*/
 
 .button {
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: Transparent;
     border: none;
-    color: white;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+}
+
+.button h2 {
+    color: white;
 }
 
 
